@@ -11,7 +11,7 @@ class StringCalculator
 		end
 	end
 end
-string = "-1\n2,-3"
+string = "-1\n2,3"
 calculator = StringCalculator.new
 begin
 	result = calculator.add(string)
